@@ -54,10 +54,39 @@ Create struct Car with elements
     horsPower: Int
  Create func getSpecs() print it with elements provided above
  */
+    struct CarWithElements {
+        var name: String
+        var productionYear: Int
+        var horsPower: Int
+        func getSpecs() {
+                print("Model: \(name), with: \(productionYear) and with horse power \(horsPower)")
+            }
+            
 /*
 Exercise 2.1
 Make example of struct Car with the name audiQ7
 Make a copy of audiQ7 and name it audiTT.
 Provide the correct name for audiTT
 Than run getSpecs() for audiQ7 and audiTT
- */ str = "Hello, playground"
+ */
+    struct Car {
+        var name: String
+        var productionYear: Int
+        var horsPower: Int
+        
+        func getSpecs() {
+            print("Model: \(name), with: \(productionYear) and with horse power \(horsPower)")
+        }
+        
+        let audiQ7 = Car(name: "audiQ7", productionYear: 2019, horsPower: 329)
+        
+        
+        var audiQ7 = audiTT
+        audiTT.name = "audiTT"
+        
+        audiQ7.getSpecs()
+        audiTT.getSpecs()
+        
+        
+        
+}
