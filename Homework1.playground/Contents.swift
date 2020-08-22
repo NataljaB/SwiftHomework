@@ -35,3 +35,5 @@ Exercise 2.5
 Using the print() function, print the phrases like: "My age is <...> years. In 10 years, I will be <...> years old. From the moment of my birth day have passed <...>" . (Symbols (<...>) must be replaced with variable values !)
 */
 print("My age is \(myAge) years. In 10 years, I will be \(myAgeInTenYears). From the moment of my birth day have passed \() ")
+
+123
